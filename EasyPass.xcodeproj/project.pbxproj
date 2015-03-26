@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CCDA90C1AC440FC003F56CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDA90B1AC440FC003F56CC /* main.m */; };
+		5CCDA90F1AC440FC003F56CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDA90E1AC440FC003F56CC /* AppDelegate.m */; };
+		5CCDA9121AC440FC003F56CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDA9111AC440FC003F56CC /* ViewController.m */; };
+		5CCDA9151AC440FC003F56CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCDA9131AC440FC003F56CC /* Main.storyboard */; };
+		5CCDA9171AC440FC003F56CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CCDA9161AC440FC003F56CC /* Images.xcassets */; };
+		5CCDA91A1AC440FC003F56CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CCDA9181AC440FC003F56CC /* LaunchScreen.xib */; };
+		5CCDA9261AC440FC003F56CC /* EasyPassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDA9251AC440FC003F56CC /* EasyPassTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CCDA9201AC440FC003F56CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CCDA8FE1AC440FC003F56CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CCDA9051AC440FC003F56CC;
+			remoteInfo = EasyPass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CCDA9061AC440FC003F56CC /* EasyPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCDA90A1AC440FC003F56CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CCDA90B1AC440FC003F56CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CCDA90D1AC440FC003F56CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CCDA90E1AC440FC003F56CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CCDA9101AC440FC003F56CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CCDA9111AC440FC003F56CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CCDA9141AC440FC003F56CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CCDA9161AC440FC003F56CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CCDA9191AC440FC003F56CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5CCDA91F1AC440FC003F56CC /* EasyPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCDA9241AC440FC003F56CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CCDA9251AC440FC003F56CC /* EasyPassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyPassTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CCDA9031AC440FC003F56CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCDA91C1AC440FC003F56CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CCDA8FD1AC440FC003F56CC = {
+			isa = PBXGroup;
+			children = (
+				5CCDA9081AC440FC003F56CC /* EasyPass */,
+				5CCDA9221AC440FC003F56CC /* EasyPassTests */,
+				5CCDA9071AC440FC003F56CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CCDA9071AC440FC003F56CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CCDA9061AC440FC003F56CC /* EasyPass.app */,
+				5CCDA91F1AC440FC003F56CC /* EasyPassTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CCDA9081AC440FC003F56CC /* EasyPass */ = {
+			isa = PBXGroup;
+			children = (
+				5CCDA90D1AC440FC003F56CC /* AppDelegate.h */,
+				5CCDA90E1AC440FC003F56CC /* AppDelegate.m */,
+				5CCDA9101AC440FC003F56CC /* ViewController.h */,
+				5CCDA9111AC440FC003F56CC /* ViewController.m */,
+				5CCDA9131AC440FC003F56CC /* Main.storyboard */,
+				5CCDA9161AC440FC003F56CC /* Images.xcassets */,
+				5CCDA9181AC440FC003F56CC /* LaunchScreen.xib */,
+				5CCDA9091AC440FC003F56CC /* Supporting Files */,
+			);
+			path = EasyPass;
+			sourceTree = "<group>";
+		};
+		5CCDA9091AC440FC003F56CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CCDA90A1AC440FC003F56CC /* Info.plist */,
+				5CCDA90B1AC440FC003F56CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CCDA9221AC440FC003F56CC /* EasyPassTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CCDA9251AC440FC003F56CC /* EasyPassTests.m */,
+				5CCDA9231AC440FC003F56CC /* Supporting Files */,
+			);
+			path = EasyPassTests;
+			sourceTree = "<group>";
+		};
+		5CCDA9231AC440FC003F56CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CCDA9241AC440FC003F56CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CCDA9051AC440FC003F56CC /* EasyPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CCDA9291AC440FC003F56CC /* Build configuration list for PBXNativeTarget "EasyPass" */;
+			buildPhases = (
+				5CCDA9021AC440FC003F56CC /* Sources */,
+				5CCDA9031AC440FC003F56CC /* Frameworks */,
+				5CCDA9041AC440FC003F56CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyPass;
+			productName = EasyPass;
+			productReference = 5CCDA9061AC440FC003F56CC /* EasyPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CCDA91E1AC440FC003F56CC /* EasyPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CCDA92C1AC440FC003F56CC /* Build configuration list for PBXNativeTarget "EasyPassTests" */;
+			buildPhases = (
+				5CCDA91B1AC440FC003F56CC /* Sources */,
+				5CCDA91C1AC440FC003F56CC /* Frameworks */,
+				5CCDA91D1AC440FC003F56CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CCDA9211AC440FC003F56CC /* PBXTargetDependency */,
+			);
+			name = EasyPassTests;
+			productName = EasyPassTests;
+			productReference = 5CCDA91F1AC440FC003F56CC /* EasyPassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CCDA8FE1AC440FC003F56CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Evgeny;
+				TargetAttributes = {
+					5CCDA9051AC440FC003F56CC = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					5CCDA91E1AC440FC003F56CC = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 5CCDA9051AC440FC003F56CC;
+					};
+				};
+			};
+			buildConfigurationList = 5CCDA9011AC440FC003F56CC /* Build configuration list for PBXProject "EasyPass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CCDA8FD1AC440FC003F56CC;
+			productRefGroup = 5CCDA9071AC440FC003F56CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CCDA9051AC440FC003F56CC /* EasyPass */,
+				5CCDA91E1AC440FC003F56CC /* EasyPassTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CCDA9041AC440FC003F56CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCDA9151AC440FC003F56CC /* Main.storyboard in Resources */,
+				5CCDA91A1AC440FC003F56CC /* LaunchScreen.xib in Resources */,
+				5CCDA9171AC440FC003F56CC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCDA91D1AC440FC003F56CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CCDA9021AC440FC003F56CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCDA9121AC440FC003F56CC /* ViewController.m in Sources */,
+				5CCDA90F1AC440FC003F56CC /* AppDelegate.m in Sources */,
+				5CCDA90C1AC440FC003F56CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCDA91B1AC440FC003F56CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCDA9261AC440FC003F56CC /* EasyPassTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CCDA9211AC440FC003F56CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CCDA9051AC440FC003F56CC /* EasyPass */;
+			targetProxy = 5CCDA9201AC440FC003F56CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CCDA9131AC440FC003F56CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CCDA9141AC440FC003F56CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CCDA9181AC440FC003F56CC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CCDA9191AC440FC003F56CC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CCDA9271AC440FC003F56CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CCDA9281AC440FC003F56CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CCDA92A1AC440FC003F56CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyPass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CCDA92B1AC440FC003F56CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyPass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5CCDA92D1AC440FC003F56CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasyPassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyPass.app/EasyPass";
+			};
+			name = Debug;
+		};
+		5CCDA92E1AC440FC003F56CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasyPassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyPass.app/EasyPass";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CCDA9011AC440FC003F56CC /* Build configuration list for PBXProject "EasyPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCDA9271AC440FC003F56CC /* Debug */,
+				5CCDA9281AC440FC003F56CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CCDA9291AC440FC003F56CC /* Build configuration list for PBXNativeTarget "EasyPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCDA92A1AC440FC003F56CC /* Debug */,
+				5CCDA92B1AC440FC003F56CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CCDA92C1AC440FC003F56CC /* Build configuration list for PBXNativeTarget "EasyPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCDA92D1AC440FC003F56CC /* Debug */,
+				5CCDA92E1AC440FC003F56CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CCDA8FE1AC440FC003F56CC /* Project object */;
+}
