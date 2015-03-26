@@ -9,7 +9,7 @@
 - (id)initWithCoder:(NSCoder *)aDecoder {
     if (self = [super initWithCoder: aDecoder]) {
         self.title = NSLocalizedString(@"Scan Code", "");
-        
+        [self addTabBarItem];
     }
     
     return self;
@@ -21,7 +21,8 @@
 
 -(void)addTabBarItem {
     UITabBarItem *item = [[UITabBarItem alloc]
-                          initWithTabBarSystemItem: UITabBarSystemItemSearch tag: 0];
+                          initWithTabBarSystemItem: UITabBarSystemItemSearch
+                          tag: 0];
     self.tabBarItem = item;
 }
 
