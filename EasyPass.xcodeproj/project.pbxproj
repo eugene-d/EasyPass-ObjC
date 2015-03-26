@@ -14,6 +14,7 @@
 		5CCDA91A1AC440FC003F56CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CCDA9181AC440FC003F56CC /* LaunchScreen.xib */; };
 		5CCDA9261AC440FC003F56CC /* EasyPassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDA9251AC440FC003F56CC /* EasyPassTests.m */; };
 		5CCDA9351AC44432003F56CC /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDA9341AC44432003F56CC /* MasterViewController.m */; };
+		5CCDA9381AC4503A003F56CC /* ScanningController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDA9371AC4503A003F56CC /* ScanningController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5CCDA9251AC440FC003F56CC /* EasyPassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyPassTests.m; sourceTree = "<group>"; };
 		5CCDA9331AC44432003F56CC /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		5CCDA9341AC44432003F56CC /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		5CCDA9361AC4503A003F56CC /* ScanningController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanningController.h; sourceTree = "<group>"; };
+		5CCDA9371AC4503A003F56CC /* ScanningController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanningController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				5CCDA90D1AC440FC003F56CC /* AppDelegate.h */,
 				5CCDA90E1AC440FC003F56CC /* AppDelegate.m */,
 				5CCDA9131AC440FC003F56CC /* Main.storyboard */,
+				5CCDA9361AC4503A003F56CC /* ScanningController.h */,
+				5CCDA9371AC4503A003F56CC /* ScanningController.m */,
 				5CCDA9161AC440FC003F56CC /* Images.xcassets */,
 				5CCDA9181AC440FC003F56CC /* LaunchScreen.xib */,
 				5CCDA9091AC440FC003F56CC /* Supporting Files */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CCDA9381AC4503A003F56CC /* ScanningController.m in Sources */,
 				5CCDA9351AC44432003F56CC /* MasterViewController.m in Sources */,
 				5CCDA90F1AC440FC003F56CC /* AppDelegate.m in Sources */,
 				5CCDA90C1AC440FC003F56CC /* main.m in Sources */,
