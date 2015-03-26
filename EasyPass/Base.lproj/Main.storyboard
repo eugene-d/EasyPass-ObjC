@@ -47,7 +47,7 @@
         <!--Item-->
         <scene sceneID="ftJ-cR-7Cp">
             <objects>
-                <viewController id="gZt-eo-EbH" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ScanningCodeController" id="gZt-eo-EbH" customClass="ScanningCodeController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QoN-bf-2HJ"/>
                         <viewControllerLayoutGuide type="bottom" id="3U2-TH-LFp"/>

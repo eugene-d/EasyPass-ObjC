@@ -15,6 +15,7 @@
 		5CCDA9261AC440FC003F56CC /* EasyPassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDA9251AC440FC003F56CC /* EasyPassTests.m */; };
 		5CCDA9351AC44432003F56CC /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDA9341AC44432003F56CC /* MasterViewController.m */; };
 		5CCDA9381AC4503A003F56CC /* ScanningController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDA9371AC4503A003F56CC /* ScanningController.m */; };
+		5CCDA93B1AC46D1D003F56CC /* ScanningCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDA93A1AC46D1D003F56CC /* ScanningCodeController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		5CCDA9341AC44432003F56CC /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		5CCDA9361AC4503A003F56CC /* ScanningController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanningController.h; sourceTree = "<group>"; };
 		5CCDA9371AC4503A003F56CC /* ScanningController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanningController.m; sourceTree = "<group>"; };
+		5CCDA9391AC46D1D003F56CC /* ScanningCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanningCodeController.h; sourceTree = "<group>"; };
+		5CCDA93A1AC46D1D003F56CC /* ScanningCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanningCodeController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				5CCDA9091AC440FC003F56CC /* Supporting Files */,
 				5CCDA9331AC44432003F56CC /* MasterViewController.h */,
 				5CCDA9341AC44432003F56CC /* MasterViewController.m */,
+				5CCDA9391AC46D1D003F56CC /* ScanningCodeController.h */,
+				5CCDA93A1AC46D1D003F56CC /* ScanningCodeController.m */,
 			);
 			path = EasyPass;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 				5CCDA9351AC44432003F56CC /* MasterViewController.m in Sources */,
 				5CCDA90F1AC440FC003F56CC /* AppDelegate.m in Sources */,
 				5CCDA90C1AC440FC003F56CC /* main.m in Sources */,
+				5CCDA93B1AC46D1D003F56CC /* ScanningCodeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
