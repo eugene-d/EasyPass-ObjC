@@ -31,7 +31,7 @@
         destination = controller.visibleViewController;
     }
     
-    self.tabBarController.navigationItem.title = destination.title;
+    self.navigationItem.title = destination.title;
 }
 
 @end
