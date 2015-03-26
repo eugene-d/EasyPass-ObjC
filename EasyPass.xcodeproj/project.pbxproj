@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		5CCDA90C1AC440FC003F56CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDA90B1AC440FC003F56CC /* main.m */; };
 		5CCDA90F1AC440FC003F56CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDA90E1AC440FC003F56CC /* AppDelegate.m */; };
-		5CCDA9121AC440FC003F56CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDA9111AC440FC003F56CC /* ViewController.m */; };
 		5CCDA9151AC440FC003F56CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCDA9131AC440FC003F56CC /* Main.storyboard */; };
 		5CCDA9171AC440FC003F56CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CCDA9161AC440FC003F56CC /* Images.xcassets */; };
 		5CCDA91A1AC440FC003F56CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CCDA9181AC440FC003F56CC /* LaunchScreen.xib */; };
 		5CCDA9261AC440FC003F56CC /* EasyPassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDA9251AC440FC003F56CC /* EasyPassTests.m */; };
+		5CCDA9351AC44432003F56CC /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDA9341AC44432003F56CC /* MasterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		5CCDA90B1AC440FC003F56CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5CCDA90D1AC440FC003F56CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5CCDA90E1AC440FC003F56CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5CCDA9101AC440FC003F56CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5CCDA9111AC440FC003F56CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5CCDA9141AC440FC003F56CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5CCDA9161AC440FC003F56CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5CCDA9191AC440FC003F56CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5CCDA91F1AC440FC003F56CC /* EasyPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CCDA9241AC440FC003F56CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CCDA9251AC440FC003F56CC /* EasyPassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyPassTests.m; sourceTree = "<group>"; };
+		5CCDA9331AC44432003F56CC /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		5CCDA9341AC44432003F56CC /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +83,12 @@
 			children = (
 				5CCDA90D1AC440FC003F56CC /* AppDelegate.h */,
 				5CCDA90E1AC440FC003F56CC /* AppDelegate.m */,
-				5CCDA9101AC440FC003F56CC /* ViewController.h */,
-				5CCDA9111AC440FC003F56CC /* ViewController.m */,
 				5CCDA9131AC440FC003F56CC /* Main.storyboard */,
 				5CCDA9161AC440FC003F56CC /* Images.xcassets */,
 				5CCDA9181AC440FC003F56CC /* LaunchScreen.xib */,
 				5CCDA9091AC440FC003F56CC /* Supporting Files */,
+				5CCDA9331AC44432003F56CC /* MasterViewController.h */,
+				5CCDA9341AC44432003F56CC /* MasterViewController.m */,
 			);
 			path = EasyPass;
 			sourceTree = "<group>";
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CCDA9121AC440FC003F56CC /* ViewController.m in Sources */,
+				5CCDA9351AC44432003F56CC /* MasterViewController.m in Sources */,
 				5CCDA90F1AC440FC003F56CC /* AppDelegate.m in Sources */,
 				5CCDA90C1AC440FC003F56CC /* main.m in Sources */,
 			);
@@ -414,6 +414,7 @@
 				5CCDA92B1AC440FC003F56CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CCDA92C1AC440FC003F56CC /* Build configuration list for PBXNativeTarget "EasyPassTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +423,7 @@
 				5CCDA92E1AC440FC003F56CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
